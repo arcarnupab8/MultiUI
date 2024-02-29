@@ -1,0 +1,36 @@
+.container{
+    border: 0.8vh solid white;
+    margin: 0vh 1vh;
+    border-radius: 0vh 0vh 6vh 6vh;
+}
+
+.wrap{
+    background-color: black;
+    padding: 2vh;
+    border: 1vh solid grey;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border-radius: 0vh 0vh 6vh 6vh;
+}
+
+.image{
+    margin-bottom: 1vh;
+}
+.image{
+    background-color: blue;
+    border-radius: 80vh;
+}
+
+.info{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: white;
+    font-weight: bold;
+}
+
+.info > div{
+    margin: 0.5vh 0vh;
+}

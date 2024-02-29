@@ -1,0 +1,111 @@
+/*color1: #005ddc #1a1f23 #0256c9*/
+/*color2: #da0000 #1a1f23 #fc0000*/
+
+.container{
+    position: absolute;
+    right: 1%;
+    top: 4vh;
+    opacity: 0.8    ;
+    padding: 0.3vh 0.05vh;
+    background: linear-gradient(to right, #2d343f 10%, #0461e1 80% );
+    border-radius: 1vh;
+}
+.wrap{
+    display: flex;
+    background-color: black;
+    padding: 0vh;
+    margin: 0vh 0.4vh;
+    position: relative;
+    top: 0;
+    border-radius: 1vh;
+}
+
+.number{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transform: rotate(45deg);
+    background-color: #005cda;
+    opacity: 1.0;
+    width: 5vh;
+    height: 5vh;
+    position: absolute;
+    left: -2.6vh;
+    top: -2.6vh;
+    border: 0.2vh solid #046dfb;
+    border-radius: 0.5vh;
+    box-shadow: 0vh 0vh 6vh 1vh #005ddc;
+}
+.number > div{
+    color: white;
+    font-size: 2vh;
+    font-weight: bold;
+    transform: rotate(-45deg);
+}
+
+.content{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 0vh 2vh;
+    padding: 1vh;
+}
+
+.info{
+    display: flex;
+    flex-direction: column;
+    margin-left: 2vh;
+}
+
+.info > div{
+    display: flex;
+    color: white;
+    margin: 0.5vh 0vh;
+}
+
+.address{
+    color: #005cda;
+    margin: 0vh 0.8vh;
+    font-weight: bold;
+}
+
+.info > div{
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+.info .first{
+    font-weight: bold;
+    font-size: 2vh;
+}
+
+.info .second{
+    height: 1%;
+}
+.info .second img{
+    background-color: white;
+}
+
+.info .third > div{
+    background-color: white;
+    color: black;
+    padding: 0.2vh 0.4vh;
+    margin: 0vh 0.5vh;
+    border-radius: 0.2vh;
+}
+
+.mark{
+    position: absolute;
+    right: -1.75vh;
+    top: 35%;
+    transform: rotate(45deg);
+}
+.mark > div{
+    width: 3vh;
+    height: 3vh;
+    background-color: #005cda;
+    border: 0.3 solid #0268f3;
+    border-radius: 0.3vh;
+    box-shadow: 0vh 0vh 3vh 1vh #005cda;
+}

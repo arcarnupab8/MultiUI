@@ -1,0 +1,23 @@
+.container{
+    display: flex;
+    justify-content: center;
+    position: absolute;
+    top: -3.5%;
+    left: 50%;
+    transform: translate(-50%, 0);
+}
+
+.wrap{
+    padding: 2vh 30vh;
+    border: 0.8vh solid white;
+    border-radius: 8vh;
+    position: relative;
+}
+
+.content{
+    position: absolute;
+    top: 100%;
+    left: 50%;
+    transform: translate(-50%, 0);
+    display: flex;
+}
