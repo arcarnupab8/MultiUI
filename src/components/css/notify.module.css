@@ -1,23 +1,21 @@
-/*color1: #005ddc #1a1f23 #0256c9*/
-/*color2: #da0000 #1a1f23 #fc0000*/
-
 .container{
     position: absolute;
     right: 1%;
     top: 4vh;
-    opacity: 0.8    ;
-    padding: 0.3vh 0.05vh;
-    background: linear-gradient(to right, #2d343f 10%, #0461e1 80% );
-    border-radius: 1vh;
 }
 .wrap{
     display: flex;
-    background-color: black;
+    border: 0.25vh solid transparent;
+    background: 
+        linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5) ) padding-box,
+        linear-gradient(to right, rgba(0, 0, 0, 0.5), rgba(4, 109, 251, 0.8) ) border-box;
+    ;
+    opacity: 1.0;
     padding: 0vh;
     margin: 0vh 0.4vh;
     position: relative;
     top: 0;
-    border-radius: 1vh;
+    border-radius: 1vh; 
 }
 
 .number{
@@ -27,14 +25,14 @@
     transform: rotate(45deg);
     background-color: #005cda;
     opacity: 1.0;
-    width: 5vh;
-    height: 5vh;
+    width: 3.5vh;
+    height: 3.5vh;
     position: absolute;
-    left: -2.6vh;
-    top: -2.6vh;
-    border: 0.2vh solid #046dfb;
+    left: -2vh;
+    top: -2vh;
+    border: 0.2vh solid rgba(4, 109, 251, 0.8);
     border-radius: 0.5vh;
-    box-shadow: 0vh 0vh 6vh 1vh #005ddc;
+    box-shadow: 0vh 0vh 3vh 1vh #005ddc;
 }
 .number > div{
     color: white;
@@ -97,15 +95,16 @@
 
 .mark{
     position: absolute;
-    right: -1.75vh;
-    top: 35%;
+    right: -0.8vh;
+    top: 40%;
     transform: rotate(45deg);
 }
 .mark > div{
-    width: 3vh;
-    height: 3vh;
+    width: 1.5vh;
+    height: 1.5vh;
+    opacity: 1.0;
     background-color: #005cda;
-    border: 0.3 solid #0268f3;
+    border: 0.2vh solid rgba(4, 109, 251, 0.8);
     border-radius: 0.3vh;
     box-shadow: 0vh 0vh 3vh 1vh #005cda;
 }
